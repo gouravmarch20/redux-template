@@ -1,0 +1,112 @@
+{
+    //----Demos----
+    "update.mode": "none",
+    "extensions.autoCheckUpdates": false,
+    "screencastMode.onlyKeyboardShortcuts": true,
+    //----Settings----
+    "workbench.settings.editor": "json",
+    //----Editing----
+    "editor.fontFamily": "'Cascadia Code', Monaco, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "files.defaultLanguage": "${activeEditorLanguage}", 
+    "emmet.triggerExpansionOnTab": true,
+    "editor.wordWrap": "on",
+    "diffEditor.wordWrap": "on",
+    "editor.mouseWheelZoom": true,
+    //"editor.suggest.showStatusBar": true,
+    //"editor.suggest.insertMode":"insert",
+    "editor.links": true,
+    "editor.minimap.showSlider": "always",
+    "editor.renderIndentGuides": true,
+    "editor.renderWhitespace": "all",
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.dragAndDrop": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "files.hotExit": "onExitAndWindowClose",
+    "powermode.enabled": true,
+    //----Workbench----
+    "workbench.editor.closeOnFileDelete": false,
+    "workbench.editor.revealIfOpen": true,
+    "workbench.list.smoothScrolling": true,
+    "editor.suggestSelection": "first",
+    "breadcrumbs.enabled": true,
+    "window.openFilesInNewWindow": "off",
+    //"workbench.editor.pinnedTabSizing": "normal",
+    //"workbench.editor.wrapTabs":false,
+    //----Theme----
+    "workbench.colorTheme": "JellyFish",
+    "workbench.colorCustomizations": {
+        "[SynthWave '84]": {
+            "editorIndentGuide.background": "#ddd2d29c",
+            "debugToolBar.background": "#4d3268",
+            "tab.border": "#a58fa74d",
+            "tab.activeBackground": "#8b4488a6",
+            "tab.lastPinnedBorder": "#cdc724"
+        }
+    },
+    //----Debug----
+    "debug.inlineValues": true,
+    "debug.showInStatusBar": "always",
+    "debug.toolBarLocation": "floating",
+    //----Git and GitHub----
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    //----Terminal----
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.fontSize": 11,
+    "terminal.integrated.lineHeight": 1,
+    // ---Gitbash as terminal
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\git-cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "--command=usr/bin/bash.exe",
+        "-l",
+        "-i"
+    ],
+    //----Typescript----
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // ---- main feature
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "code-runner.runInTerminal": true,
+    "extensions.autoUpdate": true,
+    // ---- TEXT  FORMATER  ----
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "explorer.confirmDelete": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "numso.prettier-standard-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.linkedEditing": true,
+    // ---- EXTENSION FEATURE ----
+    "liveServer.settings.donotShowInfoMsg": true,
+    "powermode.presets": "flames",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "[scss]": {
+        "editor.defaultFormatter": "Wscats.eno"
+    },
+    "workbench.iconTheme": "material-icon-theme"
+}
